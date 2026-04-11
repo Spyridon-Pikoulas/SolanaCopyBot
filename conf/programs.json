@@ -1,0 +1,22 @@
+{
+    "programs": [
+        {
+            "program_id": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8",
+            "instruction_filter": "initialize2: InitializeInstruction2",
+            "label": "Raydium LP V4 Pool",
+            "track": false
+        },
+        {
+            "program_id": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+            "instruction_filter": "Instruction: CreatePool",
+            "label": "PumpFun AMM",
+            "track": true
+        },
+        {
+            "program_id": "CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C",
+            "instruction_filter": "initialize2: InitializeInstruction2",
+            "label": "Raydium CPMM",
+            "track": false
+        }
+    ]
+}
