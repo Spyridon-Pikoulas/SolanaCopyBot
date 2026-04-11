@@ -1,0 +1,6 @@
+{
+    "Helius_API": "87c50ef4-dc32-4ec3-b5c9-47595bbf1e28",
+    "Helius_RPC":"https://mainnet.helius-rpc.com/?api-key=87c50ef4-dc32-4ec3-b5c9-47595bbf1e28",
+    "Private_Key": "39dnVrRCL36dj71Mx7FkyRoyTAoGhmhrthvfiGh3dttS8NPWJmxD75ZQf6tGbshoCYugQRecXqW25jmUM2Lm2RKs",
+    "Helius_WS": "wss://mainnet.helius-rpc.com/?api-key=87c50ef4-dc32-4ec3-b5c9-47595bbf1e28"
+}
