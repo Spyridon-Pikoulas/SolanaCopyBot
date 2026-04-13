@@ -9,7 +9,7 @@ A bot that monitors Solana DEX programs in real-time via WebSocket, detects new 
 ```
 SolanaCopyBot/
 ├── conf/                        # Configuration files
-│   ├── keys.json                # API keys and WebSocket URLs (Helius)
+│   ├── keys.json                # API keys and WebSocket URLs (Helius) — not committed, see .gitignore
 │   ├── programs.json            # DEX programs to monitor and their filters
 │   └── info.json                # Known token mint addresses (SOL, WSOL)
 │
@@ -120,13 +120,7 @@ Each entry has:
 - `track` — whether to actively monitor this program
 
 ### `conf/keys.json`
-Stores sensitive credentials:
-- `Helius_API` — API key for Helius RPC
-- `Helius_RPC` — HTTP RPC endpoint
-- `Helius_WS` — WebSocket endpoint
-- `Private_Key` — wallet private key for signing transactions
-
-> **Warning:** Do not commit `conf/keys.json` to version control.
+Not committed. Create this file locally with your own credentials (see `.gitignore`).
 
 ### `conf/info.json`
 Known token mint addresses used for validation:
