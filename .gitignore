@@ -3,3 +3,4 @@ venv/
 pool_messages/*
 tokens.txt
 __pycache__/
+conf/keys.json
